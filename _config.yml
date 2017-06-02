@@ -1,0 +1,61 @@
+title: Self-unemployed developer
+author: Daniel Tombor
+email: daniel@tmbr.me
+description: > # this means to ignore newlines until "baseurl:"
+  Diary of a self-unemployed developer's summer days. 
+  Thoughts, notes, experiences and anecdotes about developer stuffs and life.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: ""
+
+# Social profiles
+social-profiles:
+  - username: "danieltmbr"
+    url: "https://github.com/danieltmbr"
+    icon: "github"
+    site: "GitHub"
+  - username: "danieltmbr"
+    url: "https://stackoverflow.com/users/3487134/danieltmbr"
+    icon: "stackoverflow"
+    site: "StackOverflow"
+  - username: "danieltmbr"
+    url: "https://twitter.com/danieltmbr"
+    icon: "twitter"
+    site: "Twitter"
+  - username: "danieltmbr"
+    url: "https://www.linkedin.com/in/danieltmbr/"
+    icon: "linkedin"
+    site: "LinkedIn"
+    
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
+
+permalink: pretty
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 7
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2
