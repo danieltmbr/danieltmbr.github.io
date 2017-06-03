@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Diary of a self-unemployed developer's summer days. 
   Thoughts, notes, experiences and anecdotes about developer stuffs and life.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "danieltmbr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: "UA-100417263-1"
 
 # Social profiles
@@ -32,6 +32,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -48,14 +49,5 @@ defaults:
 permalink: pretty
 
 # Pagination
-pagination:
-  enabled: true
-  per_page: 7
-  permalink: '/:num/'
-  title: ':title | :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail: 
-    before: 2
-    after: 2
+paginate: 7
+paginate_path: "/:num/"
