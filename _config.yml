@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Thoughts, notes, experiences and anecdotes about developer stuffs and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: ""
+google_analytics: "UA-100417263-1"
 
 # Social profiles
 social-profiles:
