@@ -5,11 +5,32 @@ date: 2017-06-01 21:27:47 +0200
 categories: general
 tag: summer plan journey developer
 ---
+I always think of the summer as an opportunity for a fresh start. ☀️ Days seem longer and I feel more energetic like I can do anything within a minute. Even if I'm postponing, I still feel like I have a whole bunch of days remaining. 🏖
+
+![Meme: It's a trap!][itsatrap]
+
+The length of the days are the same and I'm not able to work 4 time faster. No, not even 2 times. Days are counting and summer comes to its end real quick. ⏳ 
+The best way not to waste my creative break is creating a detailed plan 📝. Firstly, I created a 'backlog' (To-Do list) of 'tasks' (topics) with estimated time consumption - or how much time I tend to deal with a topic. Then, instead of real sprints, I established deadlines which help me notice if I'm on shcedule or not. 
+
+![Meme: We'll ask for estimates ... and then treat them as deadlines][agiledeadline]
+
+I don't believe in just walking through tutorials. It's better to use the new techniques in real projects, but at work you don't always have a chance for doing that. 😫 So I picked some passion project on which I can practice the newly acquired knowledge. Primiarily I'll deal with iOS related projects 📱, but to widen my aspects I'm going to learn server side, web frontend and desktop technologies and programming languages as well. 🖥
+
+![Meme: "Full stack developer"][fullstack]
+
+So this blog is dedicated to my thoughts 💭 of the technologies I'll try during the summer. You can find my scheduled To-Do list below.👇 
+I'll keep this post updated with the following progress notations:
+* [ &nbsp;] - Not started yet
+* [⇢] - In progress 
+* [✓] - Done 
+* [𐄂] - Not on the list anymore
+
+Have fun. 🎉
 
 ___
 ### ☝️ Prerequisites
 
-*All of them should be done by 14th of June*
+*Since all of these technologies are required to most of my passion project, they should be done by 14th of June*
 
 - [✓] Setup a blog *- (2 days)*
 - [⇢] Mastering git *- (3 days)*
@@ -68,7 +89,7 @@ ___
 - [ &nbsp;] GCD & CoreData basics *- 31st of Aug. (3 days)*
 
 ___
-### ⌛ Things that requires more time
+### 🕰 Things that requires more time
 
 - [ &nbsp;] Image processing 
 - [ &nbsp;] Deep Learning
@@ -81,6 +102,12 @@ ___
 - [𐄂] ~~Compare socket communication, Node.js vs Swift~~
 - [𐄂] ~~Haskell, Clojure, Scala~~
 
+<!--Images-->
+[itsatrap]: {{ site.url }}/assets/img/memes/itsatrap.jpg
+[agiledeadline]: {{ site.url }}/assets/img/memes/agiledeadline.jpg
+[fullstack]: {{ site.url }}/assets/img/memes/fullstack.jpg
+
+<!--References-->
 [MarketingVideo]: https://developer.apple.com/videos/play/techtalks-ios-7/4/
 [MarketingResources]: https://developer.apple.com/app-store/marketing/guidelines/
 [Rx]: https://github.com/ReactiveX/RxSwift
