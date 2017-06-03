@@ -8,4 +8,4 @@ After working for years as a software developer 👨‍💻, I decided to take a
 
 But there is no discovery without a plan and a journey log 📝. This site is dedicated for thoughts, notes and experiences of new stuff I'm running into during my exploration 🌍.
 
-In the first post I'm writing about 'The Plan' containing technologies, programming languages, design patterns, developer tools, etc in which I'd like to deepen my knowledge 👨‍🎓. I hope you'll find my posts helpful, intresting or even compromising (I'd love to discuss :).
+In the first post I'm writing about 'The Plan' containing technologies, programming languages, design patterns, developer tools, etc in which I'd like to deepen my knowledge 👨‍🎓. I hope you'll find my posts helpful, interesting or even compromising (I'd love to discuss :).

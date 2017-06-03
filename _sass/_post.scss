@@ -41,4 +41,9 @@
       @include relative-font-size(1.125);
     }
   }
+
+  p img {
+    display: block;
+    margin: 0 auto;
+  }
 }
