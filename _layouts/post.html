@@ -9,9 +9,16 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
+        {% if page.updated %}
+          - Updated on:
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y, %H:%M" %}
+          {{ page.updated | date: date_format }}
+        {% endif %}
       </time>
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% elsif site.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>
       {% endif %}</p>
   </header>
 
